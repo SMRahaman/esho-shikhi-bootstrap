@@ -95,6 +95,21 @@ section {
     color: #777777
 }
 
+.explore h1 {
+    font-size: 45px;
+    font-weight: 600
+}
+
+.explore p {
+
+    font-size: 14px;
+    color: #777777";
+
+
+}
+
+
+
 
 @media screen and (min-width:577px) and (max-width:992px) {
 
@@ -136,6 +151,13 @@ section {
         font-weight: 400;
         color: #777777
     }
+
+    .explore h1 {
+
+        font-size: 35px;
+    }
+
+    
 
 }
 
@@ -189,6 +211,23 @@ section {
 
         display: none;
     }
+
+    .explore h1 {
+
+        font-size: 25px;
+    }
+
+    .counting {
+
+        width: 50%;
+    }
+
+    .counting h1 {
+
+        font-size: 25px;
+    }
+
+
 
 
 }
