@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.navbar-brand {
+
+    font-weight: bold;
+}
+
+.navigation {
+
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+
+    color: black
+}
+
+/* slider css */
+
+.carousel-item {
+
+    background-size: cover;
+
+}
+
+.carousel-item::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    opacity: 0.6;
+
+}
+
+.carousel-caption {
+    bottom: 215px;
+    padding: 0px 100px;
+}
+
+.carousel-caption h1 {
+
+    font-size: 65px;
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .carousel-caption {
+        bottom: 100px;
+        padding: 0px 50px;
+    }
+
+    .carousel-caption h1 {
+
+        font-size: 40px;
+
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .carousel-item img {
+
+        height: 50vh;
+
+    }
+
+    .carousel-caption {
+        bottom: 60px;
+        padding: 0px 0px;
+    }
+
+    .carousel-caption h1 {
+
+        font-size: 25px;
+
+    }
+
+}
