@@ -108,6 +108,26 @@ section {
 
 }
 
+.register-sec-text h1 {
+
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.register-sec-text p {
+
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.register-button {
+
+    text-align: end;
+}
+
+
 
 
 
@@ -157,7 +177,25 @@ section {
         font-size: 35px;
     }
 
-    
+    .register-sec-text {
+
+        text-align: center;
+    }
+
+
+    .register-sec-text h1 {
+
+        font-size: 35px;
+    }
+
+
+    .register-button {
+
+        text-align: center;
+    }
+
+
+
 
 }
 
@@ -225,6 +263,22 @@ section {
     .counting h1 {
 
         font-size: 25px;
+    }
+
+    .register-sec-text {
+
+        text-align: center;
+    }
+
+
+    .register-sec-text h1 {
+
+        font-size: 25px;
+    }
+
+    .register-button {
+
+        text-align: center;
     }
 
 
