@@ -77,7 +77,7 @@ section {
 }
 
 .common-heading h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
 
 }
@@ -129,6 +129,42 @@ section {
     text-align: end;
 }
 
+.fa-angle-left {
+
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    background-color: #E5F6FF;
+    border-radius: 50%;
+    color: black;
+
+}
+
+.fa-angle-right {
+
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #289BDE;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.fqa {
+
+    width: 75%;
+    margin: auto;
+}
+
+.fa-brands {
+
+    font-size: 30px;
+    margin-right: 20px;
+}
 
 
 
@@ -196,6 +232,11 @@ section {
         text-align: center;
     }
 
+    .fqa {
+
+        width: 100%;
+
+    }
 
 
 
@@ -282,6 +323,14 @@ section {
 
         text-align: center;
     }
+
+    .fqa {
+
+        width: 100%;
+
+    }
+
+
 
 
 
